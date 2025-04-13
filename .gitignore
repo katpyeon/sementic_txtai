@@ -1,0 +1,65 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상환경
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# 로그 파일
+*.log
+logs/
+
+# OS 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 프로젝트 특화 파일
+# 데이터 파일은 저장하지 않습니다 (용량 문제)
+data/*.csv
+# 출력 결과 파일도 저장하지 않습니다
+output/*.html
+output/*.png
+
+# 예외 처리: 폰트 파일은 버전 관리에 포함 (필수 파일)
+!data/NanumGothic.ttf
+
+# 교보문고 리뷰 크롤링 결과 파일
+교보_*_리뷰_* 
